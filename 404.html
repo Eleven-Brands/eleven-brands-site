@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Eleven Brands</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --shadow: #17150f;
+    --cream: #f1ece0;
+    --cream-dim: rgba(241, 236, 224, 0.7);
+    --rule: rgba(241, 236, 224, 0.28);
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: var(--shadow);
+    color: var(--cream);
+    font-family: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .code {
+    font-family: "Anton", ui-sans-serif, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--cream-dim);
+    margin: 0 0 1rem;
+  }
+
+  h1 {
+    font-family: "Anton", ui-sans-serif, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    line-height: 1.1;
+    margin: 0 0 1.4rem;
+    text-wrap: balance;
+  }
+
+  p {
+    margin: 0 0 2rem;
+    color: var(--cream-dim);
+  }
+
+  a {
+    color: var(--cream);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.15rem;
+    transition: border-color 0.15s ease;
+  }
+
+  a:hover,
+  a:focus-visible {
+    border-color: var(--cream);
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--cream);
+    outline-offset: 3px;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <p class="code">404</p>
+    <h1>This page doesn't exist</h1>
+    <p>The page you're looking for isn't here.</p>
+    <a href="/">Back to Eleven Brands</a>
+  </div>
+</body>
+</html>
