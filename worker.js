@@ -1,3 +1,4 @@
+// deploy marker: force fresh build
 const GA_SNIPPET = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-JQFKN41R88"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
